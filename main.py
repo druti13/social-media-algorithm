@@ -4,6 +4,7 @@ from user import User
 from post import Post
 from interaction import simulate_interactions, like_post, comment_post, share_post, react_post
 from feed import generate_sample_posts, sort_feed, trending_hashtags
+from recommendations import suggest_friends
 from activity_log import log_activity
 
 def get_user_input():
